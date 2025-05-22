@@ -6,6 +6,9 @@ import InstructionsPage from './components/InstructionsPage'
 import Calculator from './components/Calculator'
 import Portfolio from './components/Portfolio'
 import Exit from './components/Exit'
+import Sign_up from './components/Sign_up'
+import Login from './components/Log_in'
+import Profile from './components/Profile'
 
 function App() {
   return (
@@ -19,7 +22,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="sign_up" element={<Sign_up />}/>
+        <Route path="log_in" element={<Login />}/>
         <Route path="/exit" element={<Exit />} />
+        <Route path="/profile" element={<Profile />} />
+
       </Routes>
     </Router>
   )

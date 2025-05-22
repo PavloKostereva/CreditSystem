@@ -56,13 +56,15 @@ const AboutPage = () => {
                     <li><Link to="/instructionspage">Інструкція</Link></li>
                     <li><Link to="/home">Всі кредити</Link></li>
                     <li><Link to="/calculator">Калькулятор</Link></li>
+                    <li><Link to="/sign_up">Реєстрація</Link></li>
+                    <li><Link to="/profile">Профіль</Link></li>
                     <li><Link to="/portfolio">Портфоліо</Link></li>
                     <li><button onClick={handleLogout} className="logout">Вихід</button></li>
                 </ul>
             </nav>
             
+            
             <main>
-                {/* Секція про місію */}
                 <section className="mission-section">
                     <div className="mission-content">
                         <h2>Наша місія</h2>
@@ -87,8 +89,6 @@ const AboutPage = () => {
                         </div>
                     </div>
                 </section>
-
-                {/* Секція про команду */}
                 <section className="team-section">
                     <h2>Наша команда</h2>
                     <p className="section-subtitle">Професіонали, які стоять за вашим зручним кредитуванням</p>
@@ -104,7 +104,6 @@ const AboutPage = () => {
                     </div>
                 </section>
 
-                {/* Секція історії */}
                 <section className="history-section">
                     <h2>Наша історія</h2>
                     <div className="timeline">
@@ -117,7 +116,6 @@ const AboutPage = () => {
                     </div>
                 </section>
 
-                {/* Секція принципів роботи */}
                 <section className="principles-section">
                     <h2>Як ми працюємо</h2>
                     <div className="principles-grid">
